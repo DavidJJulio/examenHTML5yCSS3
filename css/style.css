@@ -268,3 +268,91 @@ a {
     background-color: transparent;
     color: transparent;
 }
+
+
+
+
+@media (width >700px) {
+    body {
+        overflow: hidden;
+        background-color: var(--color-wolf);
+    }
+    .main {
+        width: 100%;
+        background-color: var(--color-wolf);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: scroll;
+        margin-top: 0px;
+    }
+    .main section {
+        width: 90%;
+    }
+    .mobile {
+        display: none;
+    }
+    .pc {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        position: fixed;
+    }
+    .pc ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .pc ul li {
+        list-style: none;
+        width: 10%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pc ul li a {
+        font-size: 1.5em;
+    }
+    .pc ul li a:hover {
+        font-weight: bold;
+    }
+    .pc i {
+        font-size: 2em;
+    }
+    .producto {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+    .div_images {
+        height: 100%;
+        display: flex;
+    }
+    .img_vertical img{
+        width: 100%;
+    }
+    .img_horizontal {
+        width: 80%;
+    }
+    .div_text {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+    }
+    .div_text h1 {
+        font-size: 4em;
+    }
+    .div_text i {
+        font-size: 1.8em;
+    }
+    .div_text p {
+        font-size: 1.4em;
+    }
+    .prices {
+        font-size: 1.7em;
+    }
+}   
